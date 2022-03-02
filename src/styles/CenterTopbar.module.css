@@ -33,6 +33,10 @@
     border: none;
 }
 
+.searchInput::placeholder {
+    color: #00000020;
+}
+
 .plus {
     margin-left: 20px;
     height: 58px;

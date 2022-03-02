@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notificationContainer, .settingContainer {
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 58px;
+    border-radius: 6px;
+    box-shadow: #00000005;
+}

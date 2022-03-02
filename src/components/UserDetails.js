@@ -1,4 +1,4 @@
-import userImage from '../assets/vincent-abolarin.jpg';
+import userImage from '../assets/jpg/vincent-abolarin.jpg';
 import styles from '../styles/UserDetails.module.css'
 
 const UserDetails = () => {

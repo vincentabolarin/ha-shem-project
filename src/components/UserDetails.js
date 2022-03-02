@@ -1,5 +1,5 @@
 import userImage from '../assets/jpg/vincent-abolarin.jpg';
-import styles from '../styles/UserDetails.module.css'
+import styles from '../styles/UserDetails.module.css';
 
 const UserDetails = () => {
     return (

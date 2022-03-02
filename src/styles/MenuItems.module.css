@@ -1,0 +1,15 @@
+.proButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #397FFE;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.proIcon {
+    margin-right: 10px;
+}

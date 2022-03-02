@@ -1,24 +1,47 @@
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .dashboard {
     font-size: 28px;
+    font-weight: bold;
+    margin-right: 40px;
 }
 
 .searchPlus {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     height:58px;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #F4F6FA;
+    height: 100%;
+}
+
 .searchIcon {
-    padding: 10px;
+    padding: 10px 20px;
+}
+
+.searchInput {
+    background-color: #F4F6FA;
+    border: none;
 }
 
 .plus {
     margin-left: 20px;
-    height: 100%;
+    height: 58px;
     width: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00000020;
+    font-size: 18px;
+    border: 1px dashed #00000020;
+    border-radius: 6px;
 }

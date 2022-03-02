@@ -1,8 +1,10 @@
+import styles from '../styles/Topbar.module.css';
+
 import CenterTopbar from './CenterTopbar';
 
 const Topbar = () => {
     return (
-        <div>
+        <div className={styles.content}>
             <CenterTopbar />
         </div>
     );

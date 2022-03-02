@@ -9,11 +9,11 @@ const CenterTopbar = () => {
                 Dashboard
             </p>
             <div className={styles.searchPlus}>
-                    <div className={styles.search}>
-                        <img src={searchIcon} alt="Search Icon" />
-                        
-                        <input type="text" className={styles.searchInput} placeholder="Search here..."/>
-                    </div>
+                <div className={styles.search}>
+                    <img src={searchIcon} alt="Search Icon" className={styles.searchIcon} />
+                    
+                    <input type="text" className={styles.searchInput} placeholder="Search here..."/>
+                </div>
                 
                 <p className={styles.plus}>
                     +

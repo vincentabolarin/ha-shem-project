@@ -6,5 +6,8 @@
 
 .userName {
   font-size: 14px;
-  font-weight: 500;
+}
+
+.userRole {
+  font-size: 14px;
 }

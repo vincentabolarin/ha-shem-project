@@ -2,3 +2,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+.dashboard {
+    font-size: 28px;
+}
+
+.searchPlus {
+    display: flex;
+    justify-content: flex-end;
+    height:58px;
+}
+
+.searchIcon {
+    padding: 10px;
+}
+
+.plus {
+    margin-left: 20px;
+    height: 100%;
+    width: 58px;
+}

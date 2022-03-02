@@ -5,10 +5,10 @@ const UserDetails = () => {
     return (
         <main class="userDetails">
             <img src={userImage} alt="Vincent Abolarin" class={styles.userImage} />
-            <p class="userName">
+            <p class={styles.userName}>
                 Vincent Abolarin
             </p>
-            <p className="userRole">
+            <p className={styles.userRole}>
                 Frontend Engineer
             </p>
         </main>

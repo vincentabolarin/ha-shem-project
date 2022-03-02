@@ -13,3 +13,17 @@
 .proIcon {
     margin-right: 10px;
 }
+
+.dashboardContainer {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.menuItem {
+    display: flex;
+}
+
+.menuText {
+    font-size: 14px;
+    color: #9CA1AC;
+}

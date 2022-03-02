@@ -1,3 +1,9 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .proButton {
     display: flex;
     justify-content: space-around;
@@ -23,7 +29,50 @@
     display: flex;
 }
 
+.menuItem:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.menuIcon {
+    margin-right: 20px;
+}
+
 .menuText {
     font-size: 14px;
     color: #9CA1AC;
+}
+
+.buyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 198px;
+    height: 229px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20 #00000005;
+    margin-bottom: 40px;
+}
+
+.storageCard {
+    width: 50%;
+}
+
+.buyText {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buyButton {
+    padding: 10px 20px;
+    background-color: #397FFE;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.buyButtonText {
+    font-size: 14px;
+    font-weight: bold;
 }

@@ -1,8 +1,12 @@
+import styles from '../styles/LeftSidebar.module.css'
+
 import UserDetails from './UserDetails';
 
 const LeftSidebar = () => {
     return (
-        <UserDetails />
+        <div className={styles.content}>
+            <UserDetails />
+        </div>
     );
 }
  

@@ -1,0 +1,30 @@
+.content {
+    width: 60%;
+}
+
+.projectsHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectSelection {
+    font-size: 24px;
+}
+
+.projectStatusContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectStatus {
+    display: flex;
+    align-items: center;
+    color: #00000050;
+    margin-left: 20px;
+}
+
+.projectStatus:hover {
+    color: #397FFE;
+    border-bottom: 3px solid #397FFE;
+}

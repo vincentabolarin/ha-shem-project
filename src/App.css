@@ -11,3 +11,14 @@
   font-family: 'Poppins', sans-serif;
   display: flex;
 }
+
+.TopbarMainContent {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  width: 80%;
+}
+
+.RightSidebarMainContent {
+  display: flex;
+}

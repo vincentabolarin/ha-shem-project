@@ -29,7 +29,22 @@ const Calendar = () => {
             </div>
 
             <div className={styles.dayOfWeek}>
-                
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+                <p>1</p>
+
             </div>
         </div>
     );

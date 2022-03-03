@@ -1,6 +1,5 @@
 .content {
-    width: 80%;
-    padding: 28px;
+    padding-bottom: 28px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

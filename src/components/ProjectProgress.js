@@ -1,5 +1,6 @@
 import styles from '../styles/ProjectProgress.module.css';
 
+import userIcon from '../assets/jpg/vincent-abolarin.jpg';
 
 const ProjectProgress = () => {
     return (
@@ -37,7 +38,17 @@ const ProjectProgress = () => {
             </div>
 
             <div className={styles.usersProgress}>
+                <div className={styles.users}>
+                    <img src={userIcon} alt="User Icon" className={styles.userIcon} />
+                    <img src={userIcon} alt="User Icon" className={styles.userIcon} />
+                    <img src={userIcon} alt="User Icon" className={styles.userIcon} />
+                </div>
 
+                <div className={styles.progress}>
+                    <div className={styles.progressBar}>
+
+                    </div>
+                </div>
             </div>
         </div>
     );

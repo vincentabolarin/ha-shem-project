@@ -3,14 +3,13 @@
     background-color: #F8F8F8;
     border-radius: 20px;
     margin-top: 28px;
-}
-
-.projectList {
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
 }
 
 .project1, .project2, .project3 {
-    width: 40%;
+    width: 100%;
     padding: 10px;
     text-align: left;
 }
@@ -41,4 +40,30 @@
 .projectDate {
     font-size:10px;
     color: #fff;
+}
+
+.users {
+    border: 1px solid black;
+    border-radius: 26px;
+}
+
+.userIcon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.progress {
+    width: 80%;
+    height: 52px;
+    border-radius: 26px;
+    background-color: #000;
+}
+
+.progressBar {
+    width: 80%;
+    height: 100%;
+    border-radius: 26px;
+    background-image: linear-gradient(90deg, #508EFF 4.01%, #CB70EA 98.73%);
 }

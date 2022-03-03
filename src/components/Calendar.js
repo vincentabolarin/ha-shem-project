@@ -4,6 +4,10 @@ import previousArrow from '../assets/svg/previous-arrow.svg';
 import nextArrow from '../assets/svg/next-arrow.svg';
 
 const Calendar = () => {
+
+    const daysOfWeek = [
+        'S', 'M', 'T', 'W', 'T', 'F', 'S'
+    ]
     return (
         <div className={styles.content}>
             <div className={styles.months}>
@@ -29,22 +33,13 @@ const Calendar = () => {
             </div>
 
             <div className={styles.dayOfWeek}>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-
+                {
+                    daysOfWeek.map((day) =>
+                        <div>
+                            {day}
+                        </div>
+                    )
+                }
             </div>
         </div>
     );

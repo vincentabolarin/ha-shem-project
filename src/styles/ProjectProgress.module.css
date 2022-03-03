@@ -42,6 +42,14 @@
     color: #fff;
 }
 
+.usersProgress {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 28px;
+}
+
 .users {
     border: 1px solid black;
     border-radius: 26px;
@@ -55,10 +63,14 @@
 }
 
 .progress {
-    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
     height: 52px;
     border-radius: 26px;
     background-color: #000;
+    margin-top: 28px;
 }
 
 .progressBar {
@@ -66,4 +78,8 @@
     height: 100%;
     border-radius: 26px;
     background-image: linear-gradient(90deg, #508EFF 4.01%, #CB70EA 98.73%);
+}
+
+.progressText {
+    color: #fff;
 }

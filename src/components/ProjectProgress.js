@@ -48,6 +48,9 @@ const ProjectProgress = () => {
                     <div className={styles.progressBar}>
 
                     </div>
+                    <p className={styles.progressText}>
+                        80%
+                    </p>
                 </div>
             </div>
         </div>

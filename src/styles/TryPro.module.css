@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+    height: 166px;
+    background-color: #65A2B1;
+    border-radius: 20px;
+}
+
+.tryProImage {
+    margin-top: 28px;
+    margin-right: 28px;
+    height: 120%;
+}
+
+.tryProText {
+    color: #fff;
+    font-weight: bold;
+}
+
+.tryProHeading {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.tryProDescription {
+    font-size: 12px;
+}

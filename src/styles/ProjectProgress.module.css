@@ -3,13 +3,16 @@
     background-color: #F8F8F8;
     border-radius: 20px;
     margin-top: 28px;
-    display: flex;
-    justify-content: space-between;
     padding: 28px;
 }
 
+.projectsProgress {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project1, .project2, .project3 {
-    width: 100%;
+    width: 150%;
     padding: 10px;
     text-align: left;
 }
@@ -82,4 +85,34 @@
 
 .progressText {
     color: #fff;
+}
+
+.legend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.legendBar {
+    width: 28px;
+    height: 4px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.legendText {
+    margin-right: 30px;
+}
+
+.toDoBar {
+    background-color: #0063B7
+}
+
+.inProgressBar {
+    background-color: #FF4955;
+}
+
+.completedBar {
+    background-color: #D25720;
 }

@@ -8,6 +8,12 @@ const Calendar = () => {
     const daysOfWeek = [
         'S', 'M', 'T', 'W', 'T', 'F', 'S'
     ]
+
+    const daysOfMonth = [];
+    for (var i=1; i<=31; i++) {
+        daysOfMonth.push(i);
+    }
+
     return (
         <div className={styles.content}>
             <div className={styles.months}>
@@ -35,6 +41,16 @@ const Calendar = () => {
             <div className={styles.dayOfWeek}>
                 {
                     daysOfWeek.map((day) =>
+                        <div>
+                            {day}
+                        </div>
+                    )
+                }
+            </div>
+
+            <div className={styles.dayOfMonth}>
+                {
+                    daysOfMonth.map((day) =>
                         <div>
                             {day}
                         </div>

@@ -1,6 +1,7 @@
 import styles from '../styles/MainContent.module.css';
 
 import ProjectProgress from './ProjectProgress';
+import TaskProgress from './TaskProgress';
 
 const MainContent = () => {
     return (
@@ -23,6 +24,7 @@ const MainContent = () => {
                 </div>
             </div>
             <ProjectProgress />
+            <TaskProgress />
         </div>
     );
 }

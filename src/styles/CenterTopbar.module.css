@@ -49,4 +49,10 @@
     font-size: 18px;
     border: 1px dashed #00000020;
     border-radius: 6px;
+    cursor: pointer;
+}
+
+.plus:hover {
+    color: #fff;
+    background-color: #00000050;
 }

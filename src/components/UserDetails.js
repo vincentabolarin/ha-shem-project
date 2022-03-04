@@ -5,9 +5,11 @@ const UserDetails = () => {
     return (
         <main class="userDetails">
             <img src={userImage} alt="Vincent Abolarin" class={styles.userImage} />
-            <p class={styles.userName}>
-                Vincent Abolarin
-            </p>
+            <a href="https://www.github.com/vincentabolarin" class={styles.userName}>
+                <p>
+                    Vincent Abolarin
+                </p>
+            </a>
             <p className={styles.userRole}>
                 Frontend Engineer
             </p>

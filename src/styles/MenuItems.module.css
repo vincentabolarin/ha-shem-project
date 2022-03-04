@@ -21,8 +21,8 @@
 }
 
 .dashboardContainer {
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .menuItem {
@@ -30,7 +30,7 @@
 }
 
 .menuItem:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 
 .menuIcon {
@@ -53,7 +53,7 @@
     background-color: #fff;
     box-shadow: 0 0 20 #00000005;
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 
 .storageCard {

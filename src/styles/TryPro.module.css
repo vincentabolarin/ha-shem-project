@@ -6,6 +6,7 @@
     height: 166px;
     background-color: #65A2B1;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .tryProImage {

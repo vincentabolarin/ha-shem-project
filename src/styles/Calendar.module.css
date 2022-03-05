@@ -38,4 +38,9 @@
 
 .dayOfMonth * {
     margin-top: 28px;
+    cursor: pointer;
+}
+
+.dayOfMonth *:hover {
+    font-weight: bold;
 }

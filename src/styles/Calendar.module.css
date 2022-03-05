@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.months * {
+    cursor: pointer;
+}
+
 .previousArrow, .nextArrow {
     display: flex;
     justify-content: center;
@@ -20,6 +24,10 @@
     background-color: #fff;
     box-shadow: 0px 2px 2px #00000005;
     border-radius: 50%;
+}
+
+.currentMonth {
+    font-weight: bold;
 }
 
 .dayOfWeek {

@@ -23,56 +23,53 @@ const ProgressStats = () => {
             </div>
 
             <div className={styles.graph}>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={`${styles.bar} ${styles.september}`}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-                <div className={styles.bar}></div>
-            </div>
-
-            <div className={styles.months}>
                 <div>
-                    Jan
+                    <div className={styles.bar}></div>
+                    <p>Jan</p>
                 </div>
                 <div>
-                    Feb
+                    <div className={styles.bar}></div>
+                    <p>Feb</p>
                 </div>
                 <div>
-                    Mar
+                    <div className={styles.bar}></div>
+                    <p>Mar</p>
                 </div>
                 <div>
-                    Apr
+                    <div className={styles.bar}></div>
+                    <p>Apr</p>
                 </div>
                 <div>
-                    May
+                    <div className={styles.bar}></div>
+                    <p>May</p>
                 </div>
                 <div>
-                    Jun
+                    <div className={styles.bar}></div>
+                    <p>Jun</p>
                 </div>
                 <div>
-                    Jul
+                    <div className={styles.bar}></div>
+                    <p>Jul</p>
                 </div>
                 <div>
-                    Aug
+                    <div className={styles.bar}></div>
+                    <p>Aug</p>
                 </div>
                 <div>
-                    Sep
+                    <div className={`${styles.bar} ${styles.september}`}></div>
+                    <p>Sep</p>
                 </div>
                 <div>
-                    Oct
+                    <div className={styles.bar}></div>
+                    <p>Oct</p>
                 </div>
                 <div>
-                    Nov
+                    <div className={styles.bar}></div>
+                    <p>Nov</p>
                 </div>
                 <div>
-                    Dec
+                    <div className={styles.bar}></div>
+                    <p>Dec</p>
                 </div>
             </div>
         </div>

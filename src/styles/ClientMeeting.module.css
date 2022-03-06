@@ -38,6 +38,11 @@
     color: #00000060;
     font-weight: bold;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.new:hover {
+    color: #000;
 }
 
 .call {

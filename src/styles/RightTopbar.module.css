@@ -14,4 +14,9 @@
     border-radius: 6px;
     background-color: #fff;
     box-shadow: 0px 0px 15px #00000010;
+    cursor: pointer;
+}
+
+.notificationContainer:hover, .settingContainer:hover {
+    background-color: #397FFE;
 }

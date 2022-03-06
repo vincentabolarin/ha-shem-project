@@ -47,3 +47,7 @@
     background-color: #EDEFF3;
     border-radius: 27px;
 }
+
+.callIcon {
+    cursor: pointer;
+}

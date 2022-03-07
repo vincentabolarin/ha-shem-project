@@ -52,6 +52,12 @@
     cursor: pointer;
 }
 
-.dayOfMonth *:hover {
+.eachDayOfMonth:hover {
     font-weight: bold;
+}
+
+.eachDayOfMonth:nth-child(7) {
+    color: #fff;
+    background: linear-gradient(90deg, #FF8C56 4.01%, #FFB215 98.73%);
+    border-radius: 50%;
 }

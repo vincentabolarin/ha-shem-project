@@ -51,7 +51,7 @@ const Calendar = () => {
             <div className={styles.dayOfMonth}>
                 {
                     daysOfMonth.map((day) =>
-                        <div>
+                        <div className={styles.eachDayOfMonth}>
                             {day}
                         </div>
                     )

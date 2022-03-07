@@ -56,3 +56,7 @@
 .callIcon {
     cursor: pointer;
 }
+
+.callIcon:hover {
+    transform: scale(1.05);
+}

@@ -47,17 +47,21 @@
     font-size: 14px;
 }
 
-.dayOfMonth * {
-    margin-top: 28px;
+.eachDayOfMonth {
     cursor: pointer;
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 18px;
 }
 
 .eachDayOfMonth:hover {
     font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #508EFF 4.01%, #CB70EA 98.73%);
 }
 
 .eachDayOfMonth:nth-child(7) {
     color: #fff;
     background: linear-gradient(90deg, #FF8C56 4.01%, #FFB215 98.73%);
-    border-radius: 50%;
+    border-radius: 26px;
 }

@@ -5,7 +5,7 @@ const UserDetails = () => {
     return (
         <main class="userDetails">
             <img src={userImage} alt="Vincent Abolarin" class={styles.userImage} />
-            <a href="https://www.github.com/vincentabolarin" class={styles.userName}>
+            <a href="https://vincentabolarin.dev" class={styles.userName}>
                 <p>
                     Vincent Abolarin
                 </p>
